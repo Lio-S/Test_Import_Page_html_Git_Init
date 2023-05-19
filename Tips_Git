@@ -1,0 +1,63 @@
+Tips_Git:
+Installation > https://git-scm.com/
+Choix des couleurs > https://flatuicolors.com/
+
+Commandes:
+
+Vérification de l'installation (si version affichée > OK)
+git --version
+
+Paramètrage Compte:
+git config --global user.name "Lionel Sergent"
+git config --global user.email "poubelle.lio@gmail.com"
+
+Création Dossier de projet:
+mkdir "Nom_Projet"
+
+Se déplacer dans le répertoire:
+cd Premier_Projet/
+
+Initialiser Git:
+git init
+
+Statut Git:
+git status
+
+Sauvegarde:
+1. Sélection des fichiers:
+git add fileName
+2. Photo des fichiers:
+git commit -m "first commit"
+<!-m "first commit" = Commentaires>
+
+Suivi des modifications:
+git log
+
+Création branche:
+git branch Nom_de_Branche
+
+Lister les branches:
+git branch
+
+Aller dans la branche:
+git checkout Nom_de_Branche
+
+Intégrer ses modifications:
+1. Sélectionner la branche principale: git checkout main
+2. Fusionner les commits : git merge Fonctionnalité_01
+3. Suppresion de la branche créée : git branch -d Fonctionnalité_01
+
+Déplacement du dépot local au dépot distant
+1. Créer le répertoire dans guithub
+2. Déclaration du dépot distant : git remote add origin https://github.com/Lio-S/Test_Import_Page_html_Git_Init.git
+3. Vérifier le dépot distant: git remote (là, le retour est "origin")
+4. Dépot du projet : git push origin main (origin: nom du dépot distant; main nom de la branche à déposer)
+
+Récupérer le projet du dépot distant au dépot local
+1. Déclaration du dépot distant : git remote add origin 
+2. git pull origine main
+
+Pour Collaborer:
+1. Avoir déclarer les utilisateurs dans guitub (Onglet Settings > collaborators)
+
+commande de déboguer git blame
