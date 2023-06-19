@@ -55,7 +55,7 @@ Déplacement du dépot local au dépot distant
 
 Récupérer le projet du dépot distant au dépot local
 1. Déclaration du dépot distant : git remote add origin 
-2. git pull origine main
+2. git pull origin main
 
 Pour Collaborer:
 1. Avoir déclarer les utilisateurs dans guitub (Onglet Settings > collaborators)
